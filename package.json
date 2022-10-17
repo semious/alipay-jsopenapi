@@ -1,0 +1,33 @@
+{
+  "name": "alipay-jsopenapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semious/alipay-jsopenapi.git"
+  },
+  "keywords": [
+    "alipay",
+    "openapi"
+  ],
+  "author": "semious@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/semious/alipay-jsopenapi/issues"
+  },
+  "homepage": "https://github.com/semious/alipay-jsopenapi#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "jsencrypt": "^3.2.1",
+    "moment": "^2.29.4",
+    "nanoid": "^4.0.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
